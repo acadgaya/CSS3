@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+
+#box{
+	background-image: url("image.jpg");
+
+	width: 500px;
+	height: 200px;
+	border:5px red solid;
+	overflow: hidden;
+}
+#box:hover{
+	border-radius: 40px;}
+
+
+/*Used Transition*/
+
+#anni {
+     width: 500px;
+    height: 400px;
+    background-color: blue;
+    transition: width 1s;
+
+}
+#anni:hover{
+	width: 40px;
+	    background-color: yellow;
+}
+
+
+
+</style>
+<meta charset="UTF-8">
+<title>CSS3 Assignemnt3</title>
+</head>
+
+
+<div id="box">
+
+ I was always interested in computers, but had no idea you could have a job programming them. As a designer I taught myself HTML and CSS, but I really learned how to program at Hacker School in NYC. Hacker School changed my life - it was a risky decision to quit my job and leave Tennessee, but it paid off considerably. I think we should all take more risks like that! I was always interested in computers, but had no idea you could have a job programming them. As a designer I taught myself HTML and CSS, but I really learned how to program at Hacker School in NYC. Hacker School changed my life - it was a risky decision to quit my job and leave Tennessee, but it paid off considerably. I think we should all take more risks like that! I was always interested in computers, but had no idea you could have a job programming them. As a designer I taught myself HTML and CSS, but I really learned how to program at Hacker School in NYC. Hacker School changed my life - it was a risky decision to quit my job and leave Tennessee, but it paid off considerably. I think we should all take more risks like that! 
+</div>
+<br><br>
+
+<div id="anni" ></div>
+
+
+</body></html>
+
+
+
+
