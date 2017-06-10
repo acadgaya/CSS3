@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#anima {
+	background-image:url("http://images.clipartpanda.com/bicycle-20clip-20art-dcryeaqc9.jpeg");
+    width: 425px;
+    height: 268px;
+	position: relative;
+    
+    animation: mymove 2s infinite;
+	
+}
+
+
+@keyframes mymove {
+    from {left:0px;}
+    to {left: 300px;}
+}
+
+</style>
+</head>
+<body>
+
+<p>Gradually change the background-color from red, to blue:<p>
+<div id="anima"></div>
+
+
+</body>
+</html>
